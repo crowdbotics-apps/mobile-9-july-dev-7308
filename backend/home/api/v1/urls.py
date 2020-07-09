@@ -6,6 +6,7 @@ from .viewsets import (
     HjgjhViewSet,
     HomePageViewSet,
     TestabcViewSet,
+    TjhgjhgfjhgViewSet,
 )
 
 from home.api.v1.viewsets import (
@@ -23,6 +24,7 @@ router.register("homepage", HomePageViewSet)
 router.register("testabc", TestabcViewSet)
 router.register("hjgjh", HjgjhViewSet)
 router.register("hgffjhfjhg", HgffjhfjhgViewSet)
+router.register("tjhgjhgfjhg", TjhgjhgfjhgViewSet)
 
 urlpatterns = [
     path("", include(router.urls)),

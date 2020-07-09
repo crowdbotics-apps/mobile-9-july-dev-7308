@@ -46,3 +46,8 @@ class Hjgjh(models.Model):
 class Hgffjhfjhg(models.Model):
     "Generated Model"
     uiyiuyiuy = models.BigIntegerField()
+
+
+class Tjhgjhgfjhg(models.Model):
+    "Generated Model"
+    mhkjhkjhk = models.BigIntegerField()
