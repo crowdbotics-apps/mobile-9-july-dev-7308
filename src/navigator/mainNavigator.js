@@ -21,7 +21,6 @@ import EmailAuth48635Navigator from '../features/EmailAuth48635/navigator';
 import BlankScreen28634Navigator from '../features/BlankScreen28634/navigator';
 import BlankScreen18633Navigator from '../features/BlankScreen18633/navigator';
 import BlankScreen98632Navigator from '../features/BlankScreen98632/navigator';
-import BlankScreen28631Navigator from '../features/BlankScreen28631/navigator';
 import BlankScreen18630Navigator from '../features/BlankScreen18630/navigator';
 import CalendarView38629Navigator from '../features/CalendarView38629/navigator';
 import EmailAuth48628Navigator from '../features/EmailAuth48628/navigator';
@@ -185,7 +184,6 @@ EmailAuth48635: { screen: EmailAuth48635Navigator },
 BlankScreen28634: { screen: BlankScreen28634Navigator },
 BlankScreen18633: { screen: BlankScreen18633Navigator },
 BlankScreen98632: { screen: BlankScreen98632Navigator },
-BlankScreen28631: { screen: BlankScreen28631Navigator },
 BlankScreen18630: { screen: BlankScreen18630Navigator },
 CalendarView38629: { screen: CalendarView38629Navigator },
 EmailAuth48628: { screen: EmailAuth48628Navigator },
