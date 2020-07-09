@@ -6,7 +6,6 @@ import SplashScreen from "../features/SplashScreen";
 import SideMenu from './sideMenu';
 //@BlueprintImportInsertion
 import BlankScreen28649Navigator from '../features/BlankScreen28649/navigator';
-import EmailAuth48646Navigator from '../features/EmailAuth48646/navigator';
 import CalendarView38645Navigator from '../features/CalendarView38645/navigator';
 import EmailAuth48644Navigator from '../features/EmailAuth48644/navigator';
 import BlankScreen28643Navigator from '../features/BlankScreen28643/navigator';
@@ -170,7 +169,6 @@ const AppNavigator = {
     },
     //@BlueprintNavigationInsertion
 BlankScreen28649: { screen: BlankScreen28649Navigator },
-EmailAuth48646: { screen: EmailAuth48646Navigator },
 CalendarView38645: { screen: CalendarView38645Navigator },
 EmailAuth48644: { screen: EmailAuth48644Navigator },
 BlankScreen28643: { screen: BlankScreen28643Navigator },
