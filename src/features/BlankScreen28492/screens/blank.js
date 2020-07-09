@@ -91,7 +91,7 @@ export class _Blank extends React.Component {
       />
       <Radio
         text="Radio button"
-        disabled={false}
+        disabled={true}
         style={{
           marginLeft: 0,
           marginRight: 0,
@@ -177,7 +177,7 @@ export class _Blank extends React.Component {
         minimumValue={0}
         maximumValue={100}
         step={1}
-        disabled={false}
+        disabled={true}
         style={{
           marginLeft: 0,
           marginRight: 0,
@@ -192,11 +192,7 @@ export class _Blank extends React.Component {
           verticalAlign: "baseline",
           borderColor: "#000000",
           borderStyle: "solid",
-          borderWidth: 0,
-          borderLeftWidth: 0,
-          borderRightWidth: 0,
-          borderTopWidth: 0,
-          borderBottomWidth: 0,
+          borderWidth: 3,
           borderRadius: 0
         }}
       />
