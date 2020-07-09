@@ -2,6 +2,7 @@ import { all, takeEvery, take } from "redux-saga/effects";
 
 
 //@BlueprintReduxSagaImportInsertion
+import EmailAuth48637Saga from '../features/EmailAuth48637/redux/sagas';
 import CalendarView38636Saga from '../features/CalendarView38636/redux/sagas';
 import EmailAuth48635Saga from '../features/EmailAuth48635/redux/sagas';
 import CalendarView38629Saga from '../features/CalendarView38629/redux/sagas';
@@ -80,6 +81,7 @@ export function* mainSaga() {
 
 
     //@BlueprintReduxSagaMainInsertion
+EmailAuth48637Saga,
 CalendarView38636Saga,
 EmailAuth48635Saga,
 CalendarView38629Saga,
