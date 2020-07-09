@@ -18,7 +18,7 @@ export class _Blank extends React.Component {
     title: "Blank".toUpperCase()
   }
 
-  state = {}
+  state = { Datepicker_3: new Date("07/09/2020"), Input_4: "" }
 
   render = () => (
     <View
@@ -56,7 +56,104 @@ export class _Blank extends React.Component {
         borderRadius: 0,
         backgroundSize: "auto"
       }}
-    />
+    >
+      <Text
+        style={{
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 20,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontStyle: "normal",
+          fontWeight: "normal",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0
+        }}
+      >
+        Sample text content
+      </Text>
+      <Datepicker
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 20,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontStyle: "normal",
+          fontWeight: "normal",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0
+        }}
+        date={this.state.Datepicker_3}
+        onSelect={nextValue => this.setState({ Datepicker_3: nextValue })}
+      />
+      <Input
+        placeholder="Sample text input placeholder"
+        editable={true}
+        multiline={true}
+        textStyle={{ height: 100, fontSize: 20, color: "#000000" }}
+        style={{
+          width: "100%",
+          marginLeft: 0,
+          marginRight: 0,
+          marginTop: 5,
+          marginBottom: 5,
+          paddingLeft: 5,
+          paddingRight: 5,
+          paddingTop: 5,
+          paddingBottom: 5,
+          overflow: "visible",
+          textAlign: "left",
+          verticalAlign: "baseline",
+          fontSize: 20,
+          color: "#000000",
+          backgroundColor: "#ffffff",
+          fontStyle: "normal",
+          fontWeight: "normal",
+          borderColor: "#000000",
+          borderStyle: "solid",
+          borderWidth: 0,
+          borderLeftWidth: 0,
+          borderRightWidth: 0,
+          borderTopWidth: 0,
+          borderBottomWidth: 0,
+          borderRadius: 0
+        }}
+        value={this.state.Input_4}
+        onChangeText={nextValue => this.setState({ Input_4: nextValue })}
+      />
+    </View>
   )
 }
 
